@@ -28,11 +28,17 @@ Follow these instructions to set up and run the project on your local machine.
    cd custom-carousel
 
 npm install
+
 npm install styled-components react-cookie
+
 npm start
 
 Additional Notes:
+
 The login credentials are hard-coded as:
+
 Username: admin
+
 Password: password
+
 On successful login, a cookie is set to maintain the login state. The carousel displays a different set of images for logged-in users.
